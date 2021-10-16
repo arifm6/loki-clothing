@@ -1,0 +1,163 @@
+
+/***************************************************************************
+*/
+
+#main-banner-img{
+	display: block;
+	width: 100%;
+}
+#just-in{
+	text-align: center;
+}
+#index-flex-suits-outer{
+	overflow: hidden;
+	position: relative;
+
+
+}
+#index-flex-suits{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+
+
+
+}
+/* CSS transition applied when translation of items happen */
+.index-flex-suits-transition {
+	transition: transform 0.7s ease-in-out;
+}
+
+.index-flex-suits-items{
+	width: 33.33%;
+	flex-shrink: 0;
+	flex-direction: column;
+	text-decoration: none;
+	text-align: center;
+	border: 1px solid transparent;
+
+
+
+}
+.index-flex-suits-items img{
+	width: 100%;
+}
+.index-flex-suits-items p{
+	color: grey;
+	margin: 1rem 0;
+}
+.index-flex-suits-items h3{
+	font-weight: bold;
+	color: black;
+}
+.index-flex-suits-items:hover{
+	border: 1px solid black;
+}
+.prev-arrow, .next-arrow{
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -22px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	background: transparent;
+	border: none;
+	background-color: grey;
+}
+.next-arrow{
+	right: 0;
+}
+.prev-arrow{
+	left: 0;
+}
+.prev-arrow:hover, .next-arrow:hover{
+	background-color: rgba(0,0,0,0.8);
+
+}
+#promo-section{
+	display: flex;
+	flex-direction: column;
+	background-color: #E8DCA2;
+	align-items: center;
+}
+.promo-item{
+	color: black;
+	margin: 1rem 0;
+}
+a.promo-item:hover{
+	background-color: white;
+}
+#womens-outfits-title{
+	text-align: center;
+}
+#index-flex-womens-outer{
+	overflow: hidden;
+	position: relative;
+
+
+}
+#index-flex-womens{
+	display: flex;
+	flex-wrap: nowrap;
+	margin: 2rem;
+
+
+}
+
+.index-flex-womens-transition {
+	transition: transform 0.7s ease-in-out;
+}
+
+.index-flex-womens-items{
+	flex: 1 0 50%;
+	flex-direction: column;
+	text-decoration: none;
+	border: 1px solid transparent;
+	justify-content: flex-start;
+	text-align: center;
+	color: black;
+
+
+	/*display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+	width: 50%;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	border: 1px solid transparent;
+	border: 1px solid blue;
+	*/
+
+}
+.index-flex-womens-items img{
+	max-width: 50%;
+}
+.index-flex-womens-items p{
+	color: grey;
+	margin: 1rem 0;
+}
+.index-flex-womens-items:hover{
+	border: 1px solid black;
+}
+@media screen and (min-width: 768px){
+	.index-flex-suits-items{
+		width: 16.66%;
+	}
+	#womens-outfits-title{
+		text-align: left;
+		margin-left: 1rem;
+	}
+	#just-in{
+		text-align: left;
+		margin-left: 1rem;
+	}
+	
+	
+}

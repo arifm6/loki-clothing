@@ -1,0 +1,64 @@
+#flex-banner{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	background-image: url("../images/about_us_page/background_banner.png");
+	padding: 50px;
+}
+
+#content-header{
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+.aboutus-flex-row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+.aboutus-card{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin: 1rem;
+}
+.aboutus-card img{
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 5px;
+}
+.aboutus-position{
+	color: #808080;
+}
+.aboutus-contact-button{
+	color: white;
+	background-color: #000000;
+	padding: 1rem;
+	border-radius: 0 0 5px 5px;
+	cursor: pointer;
+	border: 1px solid transparent;
+}
+.aboutus-contact-button:hover{
+	background-color: grey;
+	border: 1px solid grey;
+
+}
+.tweet-row{
+	display: flex;
+	justify-content: space-evenly;
+	left: 0px;
+	overflow: auto;
+	flex-wrap: wrap;
+}
+
+@media screen and (min-width:768px){
+	.aboutus-card{
+		width: 30%;
+	}
+
+}

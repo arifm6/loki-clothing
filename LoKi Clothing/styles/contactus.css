@@ -1,0 +1,60 @@
+#contactus-banner{
+	text-align: center;
+	padding: 4rem;
+	background-image: url("../images/contact_us_page/background_banner.png");
+	background-size: 100%;
+}
+#contactus-header{
+	text-align: center;
+}
+#contactus-flex-row{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	justify-content: space-evenly;
+}
+
+.contactus-flex-column{
+	line-height: 3rem;
+	flex: 1;
+	margin: 0 1rem;
+}
+.contactus-flex-column h2{
+	color: #383838;
+}
+.contactus-flex-column a{
+	color: #007AFF;
+	text-decoration: none;
+}
+
+.contactus-flex-column label{
+	margin-left: 10px;
+}
+.contactus-flex-column input, .contactus-flex-column select, .contactus-flex-column textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+.contactus-flex-column textarea{
+	height: 20vh;
+}
+.contactus-flex-column input[type="submit"]{
+	background-color: #007AFF;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+.contactus-flex-column input[type="submit"]:hover{
+	background-color: #006AFF;
+}
+@media screen and (min-width:768px){
+	#contactus-banner{
+		padding: 8rem;
+	}
+	
+}

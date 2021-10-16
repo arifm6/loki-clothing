@@ -1,0 +1,57 @@
+.womens-flex-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.banner-img {
+
+}
+.banner-img img{
+	display: block;
+	width: 100%;
+	height: auto;
+}
+#black-section-left, #black-section-right{
+	background-color: #000000;
+	width: 100%;
+
+}
+#black-section-left, #black-section-right{
+}
+/*
+NEED A BLACK-SECTION LEFT AND BLACK SECTION RIGHT!
+*/
+.black-text-section{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	color: #FFFFFF;
+	justify-content: center;
+	align-items: center;
+	padding: 1rem;
+
+}
+
+.black-text-section h1{
+	font-weight: bold;
+}
+.black-text-section a{
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding: 5px;
+	margin-bottom: 5px;
+	background-color: #FFFFFF;
+}
+
+@media screen and (min-width:768px){
+	.banner-img{
+		display: flex;
+		flex: 50%;
+	}
+	#black-section-left, #black-section-right{
+		display: flex;
+		flex: 25%;
+		justify-content: center;
+	}
+}

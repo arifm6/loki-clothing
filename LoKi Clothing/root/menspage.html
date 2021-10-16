@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>LoKi Clothing</title>
+	<meta charset="UTF-8">
+    <meta name="description" content="Premium Clothing Brand ">
+	<meta name="keywords" content="Clothing, Designer, Clothes">
+	<meta name="author" content="Ahmad Arif">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+
+	<link rel="stylesheet" type="text/css" href="../styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="../styles/menspage.css">
+  <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+
+	<script src="../scripts/main.js" async></script>
+	<script type="text/jsx" src="../scripts/menspage.js"></script>
+
+</head>
+
+
+<body>
+<!--
+	Mobile Sidepanel Section
+-->
+<div id="mobile-sidepanel">
+	<div class="mobile-sidepanel-row">
+		<button onclick="closeMobileSidepanel()" title="LoKi Home">&#10006;</button>
+	</div>
+
+	<div class="mobile-sidepanel-row">
+		<a href="index.html" title="LoKi Home"><i class="fas fa-home "></i></a>
+	</div>
+
+	<div class="mobile-sidepanel-row">
+			<a href="menspage.html">Mens</a>
+	</div>
+	<div class="mobile-sidepanel-row">
+			<a href="womenspage.html">Womens</a>
+	</div>
+	<div class="mobile-sidepanel-row">
+			<a href="aboutus.html">About Us</a>
+	</div>
+	<div class="mobile-sidepanel-row">
+			<a href="contactus.html">Contact Us</a>
+	</div>
+</div>
+
+<!--
+	Website Navigation Bar and Header Promo
+-->
+<header id="website-header-promo">
+<h3><i class="fas fa-truck"></i> Buy One Get One 40% off on select orders </h3>
+</header>
+<header id="nav-header">
+<nav id="nav-menu">
+	<div id="website-logo">
+		<a href="index.html" title="LoKi Home"><i class="fas fa-home "></i></a>
+	</div>
+	<div id="nav-left-section">
+
+		<a class="nav-hover-target" href="menspage.html"><span class="nav-hover">Mens</span></a>
+		<a class="nav-hover-target" href="womenspage.html" ><span class="nav-hover">Womens</span></a>
+		<a class="nav-hover-target" href="aboutus.html" ><span class="nav-hover">About Us</span></a>
+		<a class="nav-hover-target" href="contactus.html" ><span class="nav-hover">Contact Us</span></a>
+	</div>
+	<div id="nav-inner-section">
+
+	</div>
+	<div id="nav-right-section">
+		<div class="search-box">
+
+			<form>
+				<button class="search-button"><i class="fas fa-search"></i></button>
+				<input type="text" class="input-search" placeholder="SEARCH LOKI.COM">
+			</form>
+		</div>
+
+		<div id="nav-logo-container">
+			<a href="#" class="nav-item-logo" title="Live Chat"><i class="fas fa-comment-dots"></i></a>
+			<a href="#" class="nav-item-logo" title="Wishlist"><i class="far fa-heart"></i></a>
+			<a href="#" class="nav-item-logo" title="View Cart"><i class="fas fa-shopping-cart"></i></a>
+			<a href="#" class="nav-item-logo" title="Account Settings"><i class="far fa-user"></i></a>
+		</div>
+		<a href="#" onclick="openMobileSidepanel()" class="nav-item-logo" id="nav-mobile-dropdown" title="Account Settings"><i class="fas fa-bars"></i></a>
+	</div>
+</nav>
+</header>
+
+<div class="mens-flex-row">
+	<div class="mens-flex-item">
+		<img src="../images/mens_page/mens_1.jpg" alt="fathers day image">
+	</div>
+	<div class="mens-flex-item-text">
+			<h1>New LoKi fathers day collection items are on display now!</h1>
+			<p>Check out are latest items custom prepared for the upcoming fathers day holiday. Whether it be something that you would like to try out for yourself or whether it is a gift for a special someone, our trendy items are guaranteed to be loved by anyone.</p>
+			<a href="#">
+				Check it out!
+			</a>
+	</div>
+</div>
+<div class="mens-flex-row">
+	<div class="mens-flex-item-text">
+			<h1>This Weeks Highlights: New Watches, accessories, and more!</h1>
+			<p> Just in, new LoKi dress shoes and outfits are available for purchase at a discounted price. Check out the amazing new apparel here.</p>	
+			<a href="#">
+				Check it out!
+			</a>
+
+	</div>
+
+	<div class="mens-flex-item">
+		<img  src="../images/mens_page/mens_trending.jpg" alt="mens trending image">
+	</div>
+
+</div>
+<div class="mens-flex-row" >
+	<div class="mens-flex-item-1">
+			<h1 class="mens-page-header">Exotic Fashion Magazine!</h1>	
+			<p> LoKi Clothing was featured in this months issue of Exotic Men's Magazine. Check out our amazing items shown on display at their website found by clicking on the link below.</p>
+			<a href="#">
+				Check it out!
+			</a>
+	</div>
+	<div class="mens-flex-item-2">
+		<img src="../images/mens_page/mens_fashion.jpg" alt="mens fashion page image">
+
+	</div>
+
+</div>
+</main>
+<div id="app"></div>
+<div style="width: 100%;">
+	<a href="my-app/public/index.html">
+		<img style="width: 100%" src="../images/footer_banner.jpg" alt="error loading">
+	</a>
+</div>
+
+<!-- 
+	Footer
+-->
+<footer id="footer-background">
+	<section class="footer-main">
+		<div class="footer-main-item">
+			<h2 class="footer-title">Support</h2>
+			<ul>
+				<li><a href="#">Customer Service</a></li>
+				<li><a href="#">Shipping and Delivery</a></li>
+				<li><a href="#">Return Policy</a></li>
+				<li><a href="#">FAQs</a></li>
+				<li><a href="#">Contact Us</a></li>
+				<li><a href="#">Store Locator</a></li>
+
+			</ul>
+		</div>
+		<div class="footer-main-item">
+			<h2 class="footer-title">About Loki</h2>
+			<ul>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Careers</a></li>
+				<li><a href="#">Investors</a></li>
+				<li><a href="#">Sustainability</a></li>
+				<li><a href="#">Culture</a></li>
+			</ul>
+		</div>
+		<div class="footer-main-item">
+			<h2 class="footer-title">Products</h2>
+			<ul>
+				<li><a href="#">Mens Designer Suits</a></li>
+				<li><a href="#">Womens Designer Suits</a></li>
+
+				<li><a href="#">Watches</a></li>
+				<li><a href="#">CuffLinks</a></li>
+				<li><a href="#">Jewellery</a></li>
+				<li><a href="#">Shoes</a></li>
+			</ul>
+		</div>
+		<div class="footer-search-item">
+			<h2 class="footer-title">Stay Updated</h2>
+			<p>Email Sign Up</p>
+			<form>
+        <input type="email" name="email" placeholder="Enter email address">
+        <input type="submit" value="Subscribe">
+      </form>
+
+		</div>
+	</section>
+  <!-- Footer social -->
+  <section class="footer-social">
+    <ul class="footer-social-list">
+      <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+      <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      <li><a href="#"><i class="fab fa-github"></i></a></li>
+      <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+      <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><i class="fab fa-youtube"></i></a></li>
+    </ul>
+  </section>
+	<section class="footer-legal-background">
+		<div class="footer-legal">
+			<ul class="footer-legal-list">
+				<li><a href="#">Terms &amp; Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li>&copy; 2019 Copyright Nowrap Inc.</li>
+			</ul>
+		</div>
+	</section>
+
+</footer>
+
+</body>
+
+</html>
